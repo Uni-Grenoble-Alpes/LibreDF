@@ -4,6 +4,13 @@
 
 LibreDF is a framework for modeling stream processing system programs with a dataflow model. A dataflow model is a directed graph in which nodes represent computation tasks (called actors) and edges represent communication between a pair of actors. Modeling stream processing system programs with dataflow allows programs to be parallelized and distributed. LibreDF implements some OpenCV actors.
 
+## Publications
+
+LibreDF is used to implement Reconfigurable Dataflow (RDF) Model of Computation (MoC).
+
+- Shafiei, A. (2021). RDF: A reconfigurable dataflow model of computation (Doctoral dissertation, Université Grenoble-Alpes).
+- Fradet, P., Girault, A., Krishnaswamy, R., Nicollin, X., & Shafiei, A. (2022). RDF: A reconfigurable dataflow model of computation. ACM Transactions on Embedded Computing Systems, 22(1), 1-30.
+
 ## Application development
 
 Application developers specify the application graph in Dataflow Interchange Format (DIF). DIF is a general specification format for arbitrary dataflow models. LibreDF implements a subset of DIF explained below.
